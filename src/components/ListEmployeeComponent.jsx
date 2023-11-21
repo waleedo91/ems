@@ -1,6 +1,7 @@
-import { useState, useEffect } from "react";
-import { listEmployees, deleteEmployee } from "../services/EmployeeService";
+/* eslint-disable no-unused-vars */
+import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { deleteEmployee, listEmployees } from "../services/EmployeeService";
 
 const ListEmployeeComponent = () => {
   const [employees, setEmployees] = useState([]);
